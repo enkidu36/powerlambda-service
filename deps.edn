@@ -9,5 +9,5 @@
  :paths ["src" "target" "resources"]
  :aliases
  {:build-dev
-  {:main-opts ["-m" "pb-training-svc.server"]
+  {:main-opts ["-m" "powerlambda.server"]
    :jvm-opts ["-Dclojure.server.repl={:port,50505,:accept,clojure.core.server/repl}"]}}}

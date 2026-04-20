@@ -1,4 +1,4 @@
-(ns pb-training-svc.garmin.fit.util.file-utils
+(ns powerlambda.garmin.fit.util.file-utils
   (:require [clojure.tools.logging :as log])
   (:import (java.io FileInputStream)))
 

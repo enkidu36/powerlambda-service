@@ -1,0 +1,13 @@
+# --- clj-kondo ---
+# Ignore the cache but KEEP the config files
+.clj-kondo/.cache/
+
+# --- Emacs / CIDER ---
+.nrepl-port
+.nrepl-history
+*~
+\#*\#
+
+.\#*
+
+

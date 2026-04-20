@@ -1,4 +1,4 @@
-(ns pb-training-svc.handler
+(ns powerlambda.handler
   (:require
     [reitit.ring :as ring]
     [reitit.coercion.spec]
@@ -18,7 +18,7 @@
     ; [spec-tools.spell :as spell]
     [muuntaja.core :as m]
     [clojure.spec.alpha :as s]
-    [pb-training-svc.fit-handler :as fit]))
+    [powerlambda.fit-handler :as fit]))
 
 (def file-regex #"^.*\.(fit|csv)$")
 (s/def ::file multipart/temp-file-part)

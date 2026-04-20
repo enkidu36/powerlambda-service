@@ -1,4 +1,4 @@
-(ns pb-training-svc.garmin.fit.sdk
+(ns powerlambda.garmin.fit.sdk
   (:import (com.garmin.fit Fit)))
 
 (def version

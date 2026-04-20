@@ -1,7 +1,7 @@
-(ns pb-training-svc.fit-handler
+(ns powerlambda.fit-handler
   (:require [clojure.tools.logging :as log]
-            [pb-training-svc.garmin.fit.decode :refer [decode]]
-            [pb-training-svc.garmin.fit.util.file-utils :refer [is-stream?]]))
+            [powerlambda.garmin.fit.decode :refer [decode]]
+            [powerlambda.garmin.fit.util.file-utils :refer [is-stream?]]))
 
 (defn ok-response
   [{:keys [filename size]}]

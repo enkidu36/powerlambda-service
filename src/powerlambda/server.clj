@@ -1,5 +1,5 @@
-(ns pb-training-svc.server
-  (:require [pb-training-svc.handler :refer [app]]
+(ns powerlambda.server
+  (:require [powerlambda.handler :refer [app]]
             [ring.adapter.jetty :as jetty]))
 
 (defn start []
