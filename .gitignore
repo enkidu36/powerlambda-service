@@ -1,6 +1,8 @@
 # --- clj-kondo ---
 # Ignore the cache but KEEP the config files
-.clj-kondo/.cache/
+.clj-kondo/
+.cpcache/
+.lsp/
 
 # --- Emacs / CIDER ---
 .nrepl-port
