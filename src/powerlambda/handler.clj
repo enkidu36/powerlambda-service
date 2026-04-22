@@ -36,7 +36,7 @@
     (ring/router
       [["/swagger.json"
         {:get {:no-doc  true
-               :swagger {:info {:title "PBranes Training Services"}}
+               :swagger {:info {:title "PowerLambda Services"}}
                :handler (swagger/create-swagger-handler)}}]
 
        ["/files"

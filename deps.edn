@@ -1,10 +1,10 @@
-{:deps {org.clojure/clojure {:mvn/version "1.10.2"}
-        org.clojure/tools.logging {:mvn/version "1.1.0"}
+{:deps {org.clojure/clojure {:mvn/version "1.12.4"}
+        org.clojure/tools.logging {:mvn/version "1.3.1"}
         ring/ring-jetty-adapter {:mvn/version "1.8.2"}
-        metosin/reitit {:mvn/version "0.5.11"}
+        metosin/reitit {:mvn/version "0.10.1"}
         ring-cors/ring-cors {:mvn/version "0.1.13"}
-        ring/ring-devel {:mvn/version "1.9.0"}
-        local/fit {:mvn/version "1.0.0"}}
+        ring/ring-devel {:mvn/version "1.15.4"}
+        com.garmin/fit {:mvn/version "21.194.0"}}
 
  :paths ["src" "target" "resources"]
  :aliases
