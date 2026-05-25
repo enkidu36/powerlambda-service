@@ -21,8 +21,7 @@
 (defn decode-handler
   [file]
   (log/info "fit decode handler")
-  (if (valid-file? file)
-    (do
-      (log/info "Decode file")
-      (decode (:tempfile file))
-      (ok-response file))))
+  (when (valid-file? file)
+    (log/info "Decode file")
+    (decode (:tempfile file))
+    (ok-response file)))
